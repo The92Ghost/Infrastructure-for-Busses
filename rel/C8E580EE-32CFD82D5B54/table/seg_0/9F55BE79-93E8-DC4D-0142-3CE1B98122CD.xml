@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F55BE79-93E8-DC4D-0142-3CE1B98122CD" name="Билетни_Резервации">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:06:40 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Билет_ID:" id="686DCE80-CD25-D63B-51D6-5E8602D96BC3">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:07:19 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Видове_Билети_Вид_на_Билета:" id="DB2F4948-892A-761E-1DD7-AFEA25768165">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:07:56 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15AC3EAF-FAE6-056C-451C-E0F2CF7552AC" referredColumn="33915EDE-F487-B929-08C4-6DA319F27592"/>
+</associations>
+</Column>
+<Column name="Резервации:_Резервациа_ID:" id="1CCC60BC-C5DE-E521-FAE0-E3D60AC13A77">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:08:12 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="237CDB1A-9707-59E5-70F7-3BA7274CFED2" referredColumn="2CCC539E-2B22-8E6F-6EC8-89FDF07386E4"/>
+</associations>
+</Column>
+<Column name="Разписание_Автобус_ID:" id="57F31FD5-D1FE-5247-8F60-F3F4D626F33E">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:27:34 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4254F91-5F7A-9668-2FD0-E0A80F5A3318" referredColumn="F31249B3-02AB-105B-FA6C-D03D0B2CAC8F"/>
+</associations>
+</Column>
+<Column name="Цена:" id="32BF106B-8A54-196F-6905-096A5547A3F5">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:31:13 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20F14469-DA78-1811-9734-E6AA9769A480" name="Билетни_Резервации_PK">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:08:01 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="686DCE80-CD25-D63B-51D6-5E8602D96BC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F387B50-1302-0DF4-A410-50C6EEF86DAF" name="Билетни_Резервации_Резервации:_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:08:41 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CCC60BC-C5DE-E521-FAE0-E3D60AC13A77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1224740C-E248-D776-C9E6-8E68D013940D" name="Билетни_Резервации_Разписание_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:27:34 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57F31FD5-D1FE-5247-8F60-F3F4D626F33E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21DBF666-BEFE-25FB-F098-C1671D9CE670" name="Билетни_Резервации_Видове_Билети_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:30:14 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB2F4948-892A-761E-1DD7-AFEA25768165"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

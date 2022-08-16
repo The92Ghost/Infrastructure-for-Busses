@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C30A8605-C651-EF50-FD2C-F8AB73412FD6" name="Билетни Резервации">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>9F55BE79-93E8-DC4D-0142-3CE1B98122CD</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Билет ID:" id="A8F79686-C07A-E023-A30B-7FE72B3DDEB7">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>686DCE80-CD25-D63B-51D6-5E8602D96BC3</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Вид на Билета:" id="F0E7C1D3-0865-83DA-90DA-4C2F11971201">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>DACA8D32-3869-6646-C9A1-3B98DCCA0BAE</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<referedAttribute>0143B7CC-9A89-5C2D-E411-A226F6E259E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Резервация ID:" id="4CC2BA80-C5B2-5C72-1960-5877C49FFC7B">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>EA5FAAA9-16A8-E4FF-DC0E-D5338C26C12D</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<referedAttribute>1D95929B-1E34-16CD-5B4D-F9ABC4464C6C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Разписание Автобус ID:" id="431A6922-9289-70E4-6C9F-195FF48900F6">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>CA7E9F28-F051-8A7D-302C-A9DB52FDC82A</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<referedAttribute>E72E97C1-7A53-2A37-BB32-78B256D4214B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Цена:" id="0303E1AA-B5EB-53C4-3520-80BC640B5173">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>32BF106B-8A54-196F-6905-096A5547A3F5</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23A0C145-29A5-C658-C21B-833D5518ABCA" name="Билетни Резервации PK">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>20F14469-DA78-1811-9734-E6AA9769A480</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8F79686-C07A-E023-A30B-7FE72B3DDEB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

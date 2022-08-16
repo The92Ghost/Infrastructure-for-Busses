@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB0EDAE0-C4C4-9A9C-8DAC-FA3E2B08EA43" name="Служители">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:18:55 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Служител_ID:" id="C12C6AEE-40BA-5D7B-B344-E0A7800CE8F6">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:19:15 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Име_на_Служителя:" id="808E549E-E34E-B310-6AD5-C0E3EF8DC463">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:19:35 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Фамилия_на_Служителя:" id="867CACD7-4ADC-446F-F2F8-BE1704C7EB74">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:19:50 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="610BC9C8-27A0-ADB2-AD3A-AEAA7314A8E0" name="Служители_PK">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:19:54 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C12C6AEE-40BA-5D7B-B344-E0A7800CE8F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

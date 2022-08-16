@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8ED8ECB0-FFD7-71D0-BABB-529099582967" mainViewID="9428AD0C-48AD-C44C-AAB3-2D82899F12F2">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 08:13:22 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

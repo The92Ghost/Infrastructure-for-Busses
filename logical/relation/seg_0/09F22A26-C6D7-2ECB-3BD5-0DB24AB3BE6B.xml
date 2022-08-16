@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Разписание_Дестинации_FK" directorySegmentName="seg_0" id="09F22A26-C6D7-2ECB-3BD5-0DB24AB3BE6B">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>80061A6A-AEDE-8287-AF36-F1BB175E6D9C</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<sourcePk>6809EDEC-2882-3AF5-B663-387C4926312E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>86666B79-6EC2-7A82-896E-F6BD5642BFB1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8867096F-017C-A91F-9D0F-5DA232CF1820</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

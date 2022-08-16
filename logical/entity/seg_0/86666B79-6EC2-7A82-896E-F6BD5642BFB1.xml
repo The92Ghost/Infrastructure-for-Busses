@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86666B79-6EC2-7A82-896E-F6BD5642BFB1" name="Дестинации">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>F8B5F520-E335-08BB-BC07-14A2CBA6EBD4</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Дестинация ID:" id="CB7F6CBD-5746-6AF8-5564-8B61C18B86D5">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>C029C757-76E8-FE48-E1C2-6EA427593B83</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Начален Град:" id="5D2F3FD8-6AB9-9DB3-3823-254DF4FC3B9A">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>68108219-BED7-9CD5-2085-4B3AB03BE43D</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Краен Град:" id="EEC1FBB5-9B1B-6B73-B29B-26863F41A156">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>BC984297-3FE9-BC14-D713-81621AB18156</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Цена:" id="6EE47810-8B01-914E-6641-42A135A4EC76">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>8374E1EF-000F-97C5-EA23-02A53FF20413</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата на Тръгване:" id="5244E5BB-72F4-D420-A423-7B069DF839FC">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>32380971-C8E8-717F-6613-5EB0BA2F1644</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Час на Тръгване:" id="6BA3010C-86CA-C6A1-55B2-C661B5DB096A">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>C5559924-97DE-D67D-497B-7E7F8FFA00FF</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6809EDEC-2882-3AF5-B663-387C4926312E" name="Дестинации PK">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>8ECE329D-31BA-05F5-2A97-10B81275845C</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CB7F6CBD-5746-6AF8-5564-8B61C18B86D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

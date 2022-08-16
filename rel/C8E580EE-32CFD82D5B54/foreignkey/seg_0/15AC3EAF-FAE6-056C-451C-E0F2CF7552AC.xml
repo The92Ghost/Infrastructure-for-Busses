@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15AC3EAF-FAE6-056C-451C-E0F2CF7552AC" containerWithKeyObject="9F55BE79-93E8-DC4D-0142-3CE1B98122CD" localFKIndex="21DBF666-BEFE-25FB-F098-C1671D9CE670" name="Билетни_Резервации_Видове_Билети_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:30:14 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<referredTableLongName>Видове_Билети</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4B1F7694-D97D-C274-B3B0-EDCD7477D301</referredTableID>
+<keyObject>97F74D0D-19E4-38BC-CD85-8FA67662E792</keyObject>
+<referredKeyID>97F74D0D-19E4-38BC-CD85-8FA67662E792</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Билет_Вид:</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

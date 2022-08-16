@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Билетни Резервации_Резервации:_FK" directorySegmentName="seg_0" id="EA5FAAA9-16A8-E4FF-DC0E-D5338C26C12D">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>237CDB1A-9707-59E5-70F7-3BA7274CFED2</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<sourcePk>F44B8549-6D66-7473-E2A6-824A2186D128</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB5A65FF-57B9-2D0A-13AF-D247E9DB31A0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C30A8605-C651-EF50-FD2C-F8AB73412FD6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

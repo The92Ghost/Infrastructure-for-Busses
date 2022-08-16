@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Резервации:_Служители_FK" directorySegmentName="seg_0" id="452F15CE-74EF-3420-7840-E7654D3B37B4">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:35:22 UTC</createdTime>
+<generatorID>49B76F1B-3E27-54C4-46D1-42624E20840B</generatorID>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<engineerTo>
+<item key="C8E580EE-109A-09E8-2AC4-32CFD82D5B54" value="true"/>
+</engineerTo>
+<sourcePk>9331272C-2B1D-8725-2672-49E67E66706F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>95E449CE-0197-71F2-7C41-8D534A262986</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CB5A65FF-57B9-2D0A-13AF-D247E9DB31A0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

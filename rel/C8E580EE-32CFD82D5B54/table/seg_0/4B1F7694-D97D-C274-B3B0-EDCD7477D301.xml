@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B1F7694-D97D-C274-B3B0-EDCD7477D301" name="Видове_Билети">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:12:24 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Билет_Вид:" id="33915EDE-F487-B929-08C4-6DA319F27592">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:29:37 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Име_на_Вида:" id="F7AC2DE8-0BED-E0FF-1A9E-3EB2955085BF">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:12:46 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Отстъпка:" id="A1D5F7B7-B3CB-1922-68A2-04D0AB03DCC3">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:13:17 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97F74D0D-19E4-38BC-CD85-8FA67662E792" name="Видове_Билети_PK">
+<createdBy>rayne</createdBy>
+<createdTime>2019-10-16 09:29:37 UTC</createdTime>
+<ownerDesignName>DB Таблици и Връзки (PK и FK)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33915EDE-F487-B929-08C4-6DA319F27592"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
